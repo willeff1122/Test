@@ -14,14 +14,15 @@ const Feed = () => {
 
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row"} }}>
-      <Box sx={{ height: {sx: 'auto', md: '92vh'}, borderRight: '1px solid #3d3d', px: { sx: 0, md: 2 }}}>
+      <Box sx={{ height: {sx: 'auto', md: '92vh'}, borderRight: '1px solid #008080', px: { sx: 0, md: 2 }}}>
         <Sidebar 
           selectedCategory = {selectedCategory}
           setSelectedCategory = {setSelectedCategory}
         />
 
-        <Typography className="copyright" variant='body5' sx={{ mt: 1.5, color: 'teal'}}>
-          Copyright 2023 J.C
+        <Typography className="copyright" variant='body5' fontWeight='bold' sx={{ mt: 1.5, color: 'teal', display: 'flex', justifyContent: 'center',
+      alignItems: 'center'}}>
+          Jeff Just for fun
 
 
         </Typography>
