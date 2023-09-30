@@ -20,8 +20,9 @@ const Feed = () => {
           setSelectedCategory = {setSelectedCategory}
         />
 
-        <Typography className="copyright" variant='body5' sx={{ mt: 1.5, color: 'teal'}}>
-          Copyright 2023 J.C
+        <Typography className="copyright" variant='body5' fontWeight='bold' sx={{ mt: 1.5, color: 'teal', display: 'flex', justifyContent: 'center',
+      alignItems: 'center'}}>
+          Jeff Just for fun
 
 
         </Typography>
